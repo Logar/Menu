@@ -1,0 +1,110 @@
+{
+  "mainOptions": [
+    { 
+      "id": 1,
+      "name": "Music",
+      "submenu": [
+          {
+            "id": 1,
+            "name": "Piano Repetoire",
+            "tasks": [
+              {
+                "cmd": "open",
+                "instructions": "process.env.Z_WORKSPACE1, process.env.Z_VS"
+              },
+              {
+                "cmd": "open",
+                "instructions": "process.env.Z_REAPER"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Improv",
+            "tasks": [
+              {
+                "cmd": "open",
+                "instructions": "process.env.Z_IMPROV1, {app: ['chrome']}"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Music Production",
+            "tasks": [
+              {
+                "cmd": "open",
+                "instructions": "process.env.Z_REAPER"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Theory",
+            "tasks": [
+              {
+                "cmd": "open",
+                "instructions": "process.env.Z_THEORY1, {app: ['chrome']}"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Song Analysis",
+            "tasks": [
+              {
+                "cmd": "open",
+                "instructions": "process.env.Z_MUSESCORE"
+              },
+              {
+                "cmd": "open",
+                "instructions": "process.env.Z_TOGGL"
+              }
+            ]
+          }
+      ]
+    },
+    { 
+      "id": 2,
+      "name": "Programming",
+      "submenu": [
+          {
+            "id": 1,
+            "name": "Portfolio Website",
+            "tasks": [
+              {
+              "cmd": "open",
+              "instructions": "process.env.Z_WORKSPACE1, process.env.Z_VS"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Menu.js",
+            "tasks": [
+              {
+              "cmd": "open",
+              "instructions": "process.env.Z_WORKSPACE2, process.env.Z_VS"
+              }
+            ]
+          }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Vocab",
+      "submenu": [
+          {
+            "id": 1,
+            "name": "SAT 100 words",
+            "tasks": [
+              {
+                "cmd": "open",
+                "instructions": "process.env.Z_VOCAB1, {app: ['chrome']}"
+              }
+            ]
+          }
+      ]
+    }
+  ]
+}

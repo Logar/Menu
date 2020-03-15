@@ -1,0 +1,17 @@
+{
+  "name": "menu",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Ross Arena",
+  "description": "",
+  "engines": {
+    "node": "13.11.0",
+    "npm": "6.9.0"
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "open": "^7.0.3"
+  },
+  "@std/esm": "cjs"
+}
